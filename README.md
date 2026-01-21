@@ -2,6 +2,8 @@
 With several years of experience, Prena offers professional makeup for dancers, performers, and anyone preparing for a special moment. She takes the time to understand each client’s style, creating looks that feel natural, expressive, and full of life.
 
 
+## Prerequisites 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
