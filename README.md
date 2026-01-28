@@ -1,5 +1,7 @@
 ## Prernas-makeup-studio
-With several years of experience, Prena offers professional makeup for dancers, performers, and anyone preparing for a special moment. She takes the time to understand each client’s style, creating looks that feel natural, expressive, and full of life.
+With over 12 years of experience, Prerna specializes in makeup and styling for dancers, performers, and anyone celebrating life's special moments. She offers professional makeup application for weddings, photoshoots, and stage performances, along with complete outfit and event styling services. For those looking to develop their own skills, she also provides personalized one-on-one makeup instruction.
+
+Built on a foundation of word-of-mouth referrals and deep roots in dance and cultural events, Prerna's business has flourished over the past decade. She takes time to understand each client's unique style and vision, creating looks that feel authentic, expressive, and vibrant while honoring both cultural tradition and individual personality.
 
 
 ## Prerequisites 
