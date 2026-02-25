@@ -3,11 +3,13 @@
 @theme inline {
   --color-background: #ffffff;
   --color-foreground: #1a1a1a;
-  --color-brand-purple: #A855F7;
-  --color-brand-purple-dark: #7E22CE;
-  --color-brand-purple-light: #F3E8FF;
-  --color-brand-gold: #B8860B;
-  --color-brand-card: #F5D0FE;
+  --color-brand-purple: #9112BC;
+  --color-brand-purple-dark: #850F8D;
+  --color-brand-purple-light: #AE75DA;
+  --color-brand-gold: #F5AD18;
+  --color-brand-gold-soft: #E3BC6A;
+  --color-brand-yellow-soft: #FFF19B;
+  --color-brand-card: #D7C5D2;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-script: var(--font-great-vibes);

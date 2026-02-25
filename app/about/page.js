@@ -75,7 +75,7 @@ export default async function About() {
                 {content.philosophy.text}
               </p>
               <Link
-                href="/#contact"
+                href="/booking"
                 className="inline-block mt-6 px-8 py-3 bg-brand-purple text-white font-semibold rounded-full hover:brightness-110 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple"
               >
                 {content.philosophy.ctaText}
