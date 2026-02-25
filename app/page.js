@@ -27,7 +27,7 @@ export default async function Home() {
                 {content.hero.subheading}
               </p>
               <Link
-                href="#contact"
+                href="/booking"
                 className="inline-block mt-8 px-8 py-3 bg-brand-gold text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:brightness-110 transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-gold"
               >
                 {content.hero.ctaText}
@@ -140,7 +140,7 @@ export default async function Home() {
               Schedule your session today and let us create your perfect look.
             </p>
             <Link
-              href="#contact"
+              href="/booking"
               className="inline-block mt-8 px-10 py-3 border-2 border-gray-800 text-gray-800 font-semibold tracking-wide hover:bg-gray-800 hover:text-white transition-colors"
             >
               BOOK NOW
