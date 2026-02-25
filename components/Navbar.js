@@ -31,9 +31,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" aria-label="Prerna's Makeup Studio — Home" className="flex flex-col">
-            <span className="font-script text-2xl leading-tight">Prerna</span>
+            <span className="font-script text-2xl leading-tight">Paddu's</span>
             <span className="text-[8px] tracking-[0.25em] uppercase -mt-1 opacity-80">
-              Makeup Studio
+              Glam Haven
             </span>
           </Link>
 
