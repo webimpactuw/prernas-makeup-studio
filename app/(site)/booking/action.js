@@ -28,3 +28,7 @@ const client = createClient({
       client.create(appointment)
     }
   }
+
+  export async function clearAppointments(id) {
+    client.delete(id)
+  }

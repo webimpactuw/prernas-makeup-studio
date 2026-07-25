@@ -9,7 +9,7 @@ let last = null
 let month = today.toLocaleString('default', { month: 'long' })
 let year = today.getFullYear()
 
-export default function Calendarcomp({ className="", onValueChange}) {
+export default function Calendarcomp({ className="", onValueChange, k=0}) {
 
     const [days, setDays] = useState([])
     useEffect(() => {updateCal()}, [])
@@ -30,7 +30,7 @@ export default function Calendarcomp({ className="", onValueChange}) {
     function updateCal() {
         let temp = []
         let start = firstDay.getDay() === 0 ? 6 : firstDay.getDay()-1
-        let e = document.getElementById('header')
+        let e = document.getElementById(k+32+"")
         e.innerHTML = `${month} ${year}`
         for (let j = 0-start; j < 0; j++) {
             temp[j+start] = 0
@@ -75,11 +75,11 @@ export default function Calendarcomp({ className="", onValueChange}) {
     }
 
     return <div className={`${className}`}>
-        <div className="grid grid-rows-[10vh_5vh_7vh_7vh_7vh_7vh_7vh_7vh] grid-cols-7 border-t-1 border-r-1 border-brand-gold-soft h-full align-center justify-center items-center">
+        <div className="grid grid-rows-[10vh_5vh_7vh_7vh_7vh_7vh_7vh_7vh] grid-cols-7 border-brand-gold-soft h-full align-center justify-center items-center">
             <button type="button" onClick={() => prevMonth()} className="col-start-1 col-end-1 row-start-1 ml-[1vw]">
                 <Image src="/chevron.svg" height={15} width={15} alt="Prev" className="rotate-90"></Image>
             </button>
-            <p id='header' className="col-start-2 col-span-5 row-start-1 text-brand-purple text-2xl text-center"></p>
+            <p id={k+32+""} className="col-start-2 col-span-5 row-start-1 text-brand-purple text-2xl text-center"></p>
             <button type="button" onClick={() => nextMonth()} className="col-start-7 col-end-7 row-start-1 ml-[1vw]">
                 <Image src="/chevron.svg" height={15} width={15} alt="Next" className="rotate-270"></Image>
             </button>
@@ -95,7 +95,7 @@ export default function Calendarcomp({ className="", onValueChange}) {
                     return  <div key={crypto.randomUUID()}></div>
                 }
                 else {
-                    return <button key={day} id={day} type="button" onClick={() => select(day)} className="text-brand-purple unselected w-full h-full text-center">
+                    return <button key={day} id={k+day+""} type="button" onClick={() => select(k+day)} className="text-brand-purple unselected w-full h-full text-center">
                             {day}
                     </button>
                 }
