@@ -7,7 +7,8 @@ import service from "./documents/service";
 import serviceImages from "./documents/serviceImages";
 import appointment from "./documents/appointment";
 import servicecards from "./documents/servicecards";
+import testimonial from "./documents/testimonial";
 
 export const schema = {
-  types: [portrait, homeFeatured, homePerformance, homePhotoShoot, homeProm, service, serviceImages, appointment, servicecards],
+  types: [portrait, homeFeatured, homePerformance, homePhotoShoot, homeProm, service, serviceImages, appointment, servicecards, testimonial],
 }
