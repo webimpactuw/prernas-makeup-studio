@@ -1,6 +1,5 @@
 'use client'
 
-import Link from "next/link";
 import Serviceselector from "./components/serviceSelector";
 import Timestable from "./components/times";
 import Calendarcomp from "./components/calendar";
